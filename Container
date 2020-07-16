@@ -30,7 +30,6 @@ conda install -c bioconda samtools
 
 wget https://github.com/ruolin/strawberry/releases/download/v1.1.2/strawberry
 
-sh cmake.sh
 cd build
 make
 
