@@ -30,6 +30,8 @@ LC_ALL=C.UTF-8
  
 conda install -c bioconda samtools
 
+cd /bin
+
 git clone https://github.com/ruolin/strawberry.git
 
 cd strawberry
