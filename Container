@@ -25,10 +25,16 @@ LC_ALL=C.UTF-8
     conda config --add channels defaults
     conda config --add channels conda-forge
     conda config --add channels bioconda
-
+ 
 conda install -c bioconda samtools
 
-wget https://github.com/ruolin/strawberry/releases/download/v1.1.2/strawberry
+git clone https://github.com/ruolin/strawberry.git
+
+cd strawberry
+    sh cmake.sh
+    cd build
+    make
+
 
 
 
